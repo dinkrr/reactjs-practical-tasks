@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 28px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+
+  list-style: none;
+}
+
+li {
+  padding-bottom: 19px;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+
+li.selected,
+li:hover {
+  border-bottom: 4px solid #f65261;
+}
